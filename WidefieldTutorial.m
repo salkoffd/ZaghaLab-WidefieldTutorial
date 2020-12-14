@@ -36,7 +36,7 @@
 %% Load widefield video
 
 % folder where all data is stored
-dataFolder = 'C:\Users\Dov\Desktop\Zagha Lab\Imaging Selective Detection Task\';
+dataFolder = 'C:\Users\Dov\Desktop\Zagha Lab\Imaging Selective Detection Task';
 
 mouse_to_analyze = 1;
 
@@ -58,7 +58,7 @@ elseif mouse_to_analyze == 2
 end
 
 % change folder
-cd([dataFolder, subject_label '\' experiment_date])
+cd([dataFolder '\' subject_label '\' experiment_date])
 % load task & behavioral data
 load([experiment_date '_event_history.mat'])
 load([experiment_date '_lick_history'])
@@ -405,7 +405,7 @@ try
     
     %% when was the first target trial?
     % index of video timestamp (have to observe full video)
-    % "I wave when I’m about to start MATLAB. Please match the first paddle
+    % "I wave when IÂ’m about to start MATLAB. Please match the first paddle
     % movement after waving (or induced paddle movement) to the first target
     % trial." - Krithiga
     
