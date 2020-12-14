@@ -16,8 +16,12 @@ You can run this script by entering:
 
 into the MATLAB command window.
 
+-----
+![Analysis Pipeline](https://i.imgur.com/HovpEhs.png)
 
 **Figures Preview**
 -----
+Hit trial activity
 ![Hit Trial Activity](https://i.imgur.com/YAdpT1g.png)
+Regression Model Comparison
 ![Regression Model Comparison](https://i.imgur.com/QYClUYU.png)
