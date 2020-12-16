@@ -5,6 +5,7 @@ This tutorial showcases the tools used for pre-processing widefield videos, proj
 - Example widefield/behavioral data can be downloaded from [here](https://drive.google.com/drive/folders/1pkWcg_YW7DrdqnO32IvYPy1QJSaZwqYg?usp=sharing)
 - Before you run the script, open it and enter the file path for your data (variable is dataFolder, first line of code).
 - Make sure to add any new functions to the MATLAB path.
+- Script works on MATLAB 2018a and later.
 
 
 **Usage**
