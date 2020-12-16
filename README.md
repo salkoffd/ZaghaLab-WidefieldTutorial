@@ -3,7 +3,8 @@ This tutorial showcases the tools used for pre-processing widefield videos, proj
 
 - Ridge regression functions can be downloaded from https://github.com/churchlandlab/ridgeModel
 - Example widefield/behavioral data can be downloaded from [here](https://drive.google.com/drive/folders/1pkWcg_YW7DrdqnO32IvYPy1QJSaZwqYg?usp=sharing)
-- Before you run the script, open it and enter the file path for your data (variable is dataFolder, first line of code).
+    - The script will look for experimental data inside a folder "190204" inside another folder "GSS+03".
+- Before you run the script, open it and enter the file path for your data (variable is dataFolder, first line of code). It should be the parent folder of GSS+03
 - Make sure to add any new functions to the MATLAB path.
 - Script works on MATLAB 2018a and later.
 
